@@ -7,7 +7,7 @@
 
         <h6 ><span class="f-right"></span>系统管理</h6>
         <ul >
-            <div th:if="${user.name=='admin'}">
+            <div th:if="${user.name=='Admin'}">
             <li><a th:classappend="${page == 'role/index' ? 'currentPageNav' : ''}" th:href="@{/role/index}">角色管理</a></li>
             <li><a th:classappend="${page == 'user/index' ? 'currentPageNav' : ''}" th:href="@{/user/index}">用户管理</a></li>
             </div>
