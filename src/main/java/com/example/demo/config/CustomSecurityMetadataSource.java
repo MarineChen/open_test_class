@@ -11,6 +11,9 @@ import org.springframework.util.PathMatcher;
 
 import java.util.*;
 
+/**
+ * 自定义权限拦截
+ */
 public class CustomSecurityMetadataSource implements FilterInvocationSecurityMetadataSource {
     private static final Logger logger = LoggerFactory.getLogger(CustomSecurityMetadataSource.class);
 

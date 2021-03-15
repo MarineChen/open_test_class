@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.regex.Pattern;
 
+/**
+ * 控制URL的访问权限
+ */
 public class CsrfSecurityRequestMatcher implements RequestMatcher {
     protected Log log = LogFactory.getLog(getClass());
     private Pattern allowedMethods = Pattern

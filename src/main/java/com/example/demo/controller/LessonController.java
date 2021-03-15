@@ -29,6 +29,9 @@ import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 课程控制器
+ */
 @Controller
 @RequestMapping("/lesson")
 public class LessonController {

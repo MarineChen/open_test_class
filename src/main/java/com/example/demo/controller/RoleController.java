@@ -19,6 +19,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.security.Principal;
 
+/**
+ * 角色控制器
+ */
 @Controller
 @RequestMapping("/role")
 public class RoleController {

@@ -30,6 +30,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * 用户控制器
+ */
 @Controller
 @RequestMapping("/user")
 public class UserController {

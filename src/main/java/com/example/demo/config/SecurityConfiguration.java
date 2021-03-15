@@ -22,6 +22,9 @@ import javax.sql.DataSource;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 安全配置器
+ */
 @Configuration
 @EnableWebSecurity
 @EnableConfigurationProperties(SecuritySettings.class)

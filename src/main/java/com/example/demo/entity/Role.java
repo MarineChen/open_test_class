@@ -5,6 +5,9 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * 角色实体类
+ */
 @Entity
 @Table(name = "role")
 public class Role implements java.io.Serializable{

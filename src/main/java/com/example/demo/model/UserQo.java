@@ -5,6 +5,9 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
+/**
+ * 用户查询实体
+ */
 public class UserQo extends PageQo {
     private Long id;
     private String name;

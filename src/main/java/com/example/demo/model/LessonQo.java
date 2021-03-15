@@ -1,5 +1,8 @@
 package com.example.demo.model;
 
+/**
+ * 课程查询实体
+ */
 public class LessonQo extends PageQo{
     private Long id;
     private String name;

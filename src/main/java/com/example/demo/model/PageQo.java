@@ -1,5 +1,8 @@
 package com.example.demo.model;
 
+/**
+ * 分页类
+ */
 public class PageQo {
     private Integer page = 0;
     private Integer size = 10;

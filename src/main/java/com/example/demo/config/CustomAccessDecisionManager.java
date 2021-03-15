@@ -12,6 +12,9 @@ import org.springframework.security.core.GrantedAuthority;
 import java.util.Collection;
 import java.util.Iterator;
 
+/**
+ * 访问决策管理器
+ */
 public class CustomAccessDecisionManager implements AccessDecisionManager {
     private static final Logger logger = LoggerFactory.getLogger(CustomAccessDecisionManager.class);
 

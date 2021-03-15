@@ -8,7 +8,9 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
-
+/**
+ * 用户实体类
+ */
 @Entity
 @Table(name = "user")
 public class User implements java.io.Serializable{

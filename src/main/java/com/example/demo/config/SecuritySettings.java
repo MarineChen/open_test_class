@@ -2,6 +2,9 @@ package com.example.demo.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+/**
+ * Security配置信息
+ */
 @ConfigurationProperties(prefix="securityconfig")
 public class SecuritySettings {
     private String logoutsuccssurl = "/logout";

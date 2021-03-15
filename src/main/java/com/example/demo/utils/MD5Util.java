@@ -2,6 +2,9 @@ package com.example.demo.utils;
 
 import java.security.MessageDigest;
 
+/**
+ * MD5加密工具类
+ */
 public class MD5Util {
     private static final String SALT = "wuqian";
     public static String encode(String password) {

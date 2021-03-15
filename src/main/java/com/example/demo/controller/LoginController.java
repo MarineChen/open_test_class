@@ -16,6 +16,9 @@ import java.io.OutputStream;
 import java.util.Date;
 import java.util.Map;
 
+/**
+ * 登陆控制器
+ */
 @Controller
 public class LoginController {
     @RequestMapping("/login")

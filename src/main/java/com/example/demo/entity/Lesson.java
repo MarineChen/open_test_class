@@ -5,6 +5,9 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * 课程实体类
+ */
 @Entity
 @Table(name = "lesson")
 public class Lesson implements java.io.Serializable{

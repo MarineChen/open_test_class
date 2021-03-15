@@ -1,5 +1,8 @@
 package com.example.demo.model;
 
+/**
+ * 角色查询实体
+ */
 public class RoleQo extends PageQo{
     private Long id;
     private String name;

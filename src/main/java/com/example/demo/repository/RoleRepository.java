@@ -8,6 +8,9 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+/**
+ * 角色DAO
+ */
 @Repository
 public interface RoleRepository extends JpaRepository<Role, Long> {
     @Query("select t from Role t where t.name like :name")

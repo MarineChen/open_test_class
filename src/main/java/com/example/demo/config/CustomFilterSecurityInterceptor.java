@@ -11,6 +11,9 @@ import org.springframework.security.web.access.intercept.FilterInvocationSecurit
 import javax.servlet.*;
 import java.io.IOException;
 
+/**
+ *拦截过滤器
+ */
 public class CustomFilterSecurityInterceptor extends AbstractSecurityInterceptor implements Filter {
     private static final Logger logger = LoggerFactory.getLogger(CustomFilterSecurityInterceptor.class);
     private FilterInvocationSecurityMetadataSource securityMetadataSource;
